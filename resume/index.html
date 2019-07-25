@@ -1,0 +1,248 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sam Dyer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+</head>
+
+<body class="bg-image" data-spy="scroll" data-target=".navbar" data-offset="500">
+    <nav class="navbar navbar-expand-sm bg-light navbar-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-center" id="home-tab" data-toggle="tab" role="tab" aria-controls="home" aria-selected="false" href="#home">Sam Dyer</a>
+
+            <!--navbar buttons-->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav" id="navBar" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link text-center" id="experience-tab" data-toggle="tab" href="#experience" role="tab" aria-controls="experience" aria-selected="false">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" id="skills-tab" data-toggle="tab" href="#skills" role="tab" aria-controls="skills" aria-selected="false">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" id="education-tab" data-toggle="tab" href="#education" role="tab" aria-controls="education" aria-selected="false">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" id="personal-tab" data-toggle="tab" href="#personal" role="tab" aria-controls="personal" aria-selected="false">Personal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- toggle collapsible button-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+
+    </nav>
+
+    <!--main content-->
+    <div class="container-fluid">
+        <div class="tab-content mostly-opaque">
+            <div class="tab-pane container fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="jumbotron text-center">
+                    <h1 id="nameHeader" onmouseover="changeColor(this.id)" onmouseout="changeColorBack(this.id)">Sam Dyer</h1>
+                    <h3 id="sentenceHeader" onmouseover="changeColor(this.id)" onmouseout="changeColorBack(this.id)">Computer Science student and experienced Software Tester seeking new opportunities in San Diego</h3>
+                </div>
+                <a href="#experience" class="btn btn-light btn-block" data-toggle="tab">View my experience!</a>
+                <a href="#skills" class="btn btn-light btn-block" data-toggle="tab">Read about my skills!</a>
+                <a href="#education" class="btn btn-light btn-block" data-toggle="tab">Check out the schools I've attended!</a>
+                <a href="#personal" class="btn btn-light btn-block" data-toggle="tab">Read a little about my life!</a>
+                <a href="#contact" class="btn btn-light btn-block" data-toggle="tab">Send me a message!</a>
+            </div>
+
+            <div class="tab-pane container" id="experience" role="tabpanel" aria-labelledby="experience-tab">
+                <div class="jumbotron text-center">
+                    <h1>Experience</h1>
+                </div>
+
+                <br />
+                <img src="img/gene.png" class="logo" />
+                <br />
+
+                <ul class="list-group left">
+                    <li class="list-group-item text-center sub-header"><strong>Documentation Specialist-Automation</strong></li>
+                    <li class="list-group-item text-center"><strong>December 2015 - Present</strong></li>
+                    <li class="list-group-item text-center"><strong>Genentech, Inc. (Contracted through ValSpec, Inc.)</strong></li>
+                    <li class="list-group-item text-center"><strong>Oceanside, CA</strong></li>
+                    <li class="list-group-item">Create, review, and execute computer systems validation and qualification testing (IQ, OQ, PQ)</li>
+                    <li class="list-group-item">Design, commissioning, qualification and validation of computer systems hardware and software throughout the software development lifecycle</li>
+                    <li class="list-group-item">Validate DeltaV procedures, SQL stored procedures, queries and webparts for Syncade MES</li>
+                    <li class="list-group-item">Create, review, modify and control User Requirements Specifications, Criticality Assessments, Risk Assessments, Requirements Traceability Matrices, Functional Specifications, Design Specifications and diagrams/drawings for new and existing computer systems</li>
+                    <li class="list-group-item">Collaborate with cross-functional teams on planning and execution of activities to meet on time startup and return-to-service of impacted software and hardware</li>
+                    <li class="list-group-item">Use of Trackwise Change Management, Microsoft Office Suite,  Google Docs, Google Drive, STATURE, Sharepoint, Adobe Acrobat Pro, Condor EDMS, Emerson Syncade MES, and Emerson DeltaV PCS</li>
+                    <li class="list-group-item">Experience with GMP, GAMP 5, 21 CFR Part 11, 210, 211 & 820 and FDA/EMA regulations.</li>
+                </ul>
+
+                <br />
+                <img src="img/biolegend.png" class="logo" />
+                <br />
+
+                <ul class="list-group">
+                    <li class="list-group-item text-center sub-header"><strong>Production Chemist II-Antibody Conjugation</strong></li>
+                    <li class="list-group-item text-center"><strong>April 2013 - November 2015</strong></li>
+                    <li class="list-group-item text-center"><strong>Biolegend, Inc.</strong></li>
+                    <li class="list-group-item text-center"><strong>San Diego, California</strong></li>
+                    <li class="list-group-item">Completed reactions to conjugate fluorescent dyes to antibodies and other primary amines.</li>
+                    <li class="list-group-item">Utilized spectrophotometry to determine protein and dye concentration in solution to calculate reaction progress and adjustments for final bottling</li>
+                    <li class="list-group-item">Proficient in size-exclusion and ion exchange chromatography to separate product from reaction mixture, and isoelectric focusing gel electrophoresis to determine conjugate fraction purity</li>
+                    <li class="list-group-item">Performed conjugation reactions such as thiol-disulfide exchange reduction and succinimidyl ester linking, including PE, APC, PerCP complexes, Alexa Fluor variants, and fluorescein isothiocyanate complexes</li>
+                    <li class="list-group-item">Qualified trainer with experience in document change and engineering change requests</li>
+                    <li class="list-group-item">Operated under ISO 9001:2008 and 13485:2003 standards</li>
+                </ul>
+
+                <br />
+                <img src="img/alere.png" class="logo" />
+                <br />
+
+                <ul class="list-group">
+                    <li class="list-group-item text-center sub-header"><strong>Quality Control Technician</strong></li>
+                    <li class="list-group-item text-center"><strong>July 2012 - April 2013</strong></li>
+                    <li class="list-group-item text-center"><strong>Alere, Inc. (Contracted through Biophase, Inc.)</strong></li>
+                    <li class="list-group-item text-center"><strong>San Diego, California</strong></li>
+                    <li class="list-group-item">Performed quality control for the manufacture of the Triage line of diagnostic medical devices</li>
+                    <li class="list-group-item">Reviewed batch records to determine lot disposition</li>
+                    <li class="list-group-item">Initiated and tracked CAPA reports</li>
+                    <li class="list-group-item">Analyzed data for production lots to determine pass/fail rates based on quality control testing results</li>
+                    <li class="list-group-item">Operated under ISO 9001:2008 and ISO 13485:2003 standards in an FDA regulated facility</li>
+                </ul>
+                <br />
+            </div>
+
+            <div class="tab-pane container fade" id="skills" role="tabpanel" aria-labelledby="skills-tab">
+                <div class="jumbotron text-center">
+                    <h1>Skills</h1>
+                </div>
+
+                <ul class="list-group">
+                    <li class="list-group-item text-center">Computer Systems Validation</li>
+                    <li class="list-group-item text-center">Technical Writing</li>
+                    <li class="list-group-item text-center">DeltaV Process Control System</li>
+                    <li class="list-group-item text-center">Syncade Manufacturing Execution System</li>
+                    <li class="list-group-item text-center">C#/.NET</li>
+                    <li class="list-group-item text-center">C/C++</li>
+                    <li class="list-group-item text-center">SQL/Stored Procedures</li>
+                    <li class="list-group-item text-center">HTML/CSS/Javascript</li>
+                    <li class="list-group-item text-center">Git/Github</li>
+                    <li class="list-group-item text-center">Change Control</li>
+                </ul>
+            </div>
+
+            <div class="tab-pane container fade" id="education" role="tabpanel" aria-labelledby="education-tab">
+
+                <div class="jumbotron text-center">
+                    <h1>Education</h1>
+                </div>
+
+                <br />
+                <img src="img/cmu.png" class="logo-sm" />
+                <br />
+
+                <ul class="list-group">
+                    <li class="list-group-item text-center sub-header"><strong>Central Methodist University</strong></li>
+                    <li class="list-group-item text-center"><strong>Bachelor of Science - Computer Science</strong></li>
+                    <li class="list-group-item text-center">January 2019 - Present</li>
+                    <li class="list-group-item text-center">Anticipated graduation date: May 2020</li>
+                    <li class="list-group-item text-center">GPA: 4.0</li>
+                </ul>
+
+                <br />
+                <img src="img/mizzou.png" class="logo-sm" />
+                <br />
+
+                <ul class="list-group">
+                    <li class="list-group-item text-center sub-header"><strong>University of Missouri - Columbia</strong></li>
+                    <li class="list-group-item text-center"><strong>Bachelor of Science - Medicinal Chemistry</strong></li>
+                    <li class="list-group-item text-center">August 2008 - May 2012</li>
+                    <li class="list-group-item text-center">GPA: 3.0</li>
+                </ul>
+
+                <br />
+                <img src="img/fhc.png" class="logo" />
+                <br />
+
+                <ul class="list-group">
+                    <li class="list-group-item text-center sub-header"><strong>Francis Howell Central High School</strong></li>
+                    <li class="list-group-item text-center"><strong>Diploma, Summa Cum Laude</strong></li>
+                    <li class="list-group-item text-center">August 2004 - May 2008</li>
+                    <li class="list-group-item text-center">GPA: 4.0</li>
+                </ul>
+                <br />
+            </div>
+
+            <div class="tab-pane container fade" id="personal" role="tabpanel" aria-labelledby="personal-tab">
+                <div class="jumbotron text-center">
+                    <h1>Personal</h1>
+                    <p>
+                        Hello, my name is Sam and I'm an aspiring software developer. I've worked in the biotech industry for the last 7 years and my roles have increasingly grown to include
+                        software and automation, and I've decided to progress further within this field. I have a deep love of computers and have been studying computer hardware and software
+                        systems and architecture since 2017. After a year of self-learning, I decided it was time to receive a formal education to make sure the breadth and depth of my
+                        knowledge wouldn't be limited by the unknown unknowns: the things that I didn't know I didn't know.
+                    </p>
+                    <br />
+                    <p>
+                        When I'm not validating computer systems at work and making projects on the side at home, I'm an avid runner, weightlifter, hiker and backpacker. I've taught myself
+                        how to sew and love taking my dog, Reggie, to the dog park and on runs through the woods. Overall, I'm a highly active person both in physical and mental pursuits,
+                        and can promise that I'll bring that same energy to any new opportunity that comes my way.
+                    </p>
+                </div>
+
+                
+                
+                </p>
+            </div>
+
+            <div class="tab-pane container fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="jumbotron text-center">
+                    <h1>Contact</h1>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item text-center sub-header"><strong>Email: samueljdyer@gmail.com</strong></li>
+                    <li class="list-group-item text-center sub-header"><strong>Mobile: 636-544-4482</strong></li>
+                </ul>
+                <br />
+
+                <h4 class="text-center">Send me a message!</h4>
+                <form>
+                    <div class="form-group">
+
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" id="nameMessage">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input type="text" class="form-control" id="emailMessage">
+                        </div>
+
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" id="messageTextArea" data-toggle="tooltip" title="Write your message here" rows="4"></textarea>
+                    </div>
+
+                    <div class="align-center">
+                        <button type="button" id="messageSubmit" class="btn btn-light btn-sm" onclick="msgSubmit()">Submit</button>
+                        <button type="button" id="messageClear" class="btn btn-light btn-sm" onclick="msgClear()">Clear</button>
+                    </div>
+                    <div class="hidden-div align-center" id="hiddenDiv">Thank you for your message!</div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

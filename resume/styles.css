@@ -1,0 +1,46 @@
+﻿
+.bg-image {
+    background-image: url(img/bigSurBG.jpg);
+    background-color: rgba(73,60,42,0.3);
+    //background-position: 100% 0%;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.mostly-opaque {
+    opacity: 0.85;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    max-width: 50%;
+    opacity: 1 !important; 
+}
+
+.logo-sm {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    max-width: 30%;
+    opacity: 1;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.hidden-div{
+    display: none;
+}
+
+.sub-header {
+    font-size: 26px;
+}
