@@ -3,9 +3,8 @@
     background-image: url(img/sequoia.jpg);
     background-color: rgb(18, 20, 17);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     background-attachment: scroll;
-    opacity: 0.8;
 }
 
 .narrow {
